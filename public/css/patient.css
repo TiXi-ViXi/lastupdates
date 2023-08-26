@@ -1,0 +1,72 @@
+.body{
+    background-color: #c5e1fc;
+}
+
+.content{
+    margin-top: 6%;
+    margin-left: 30%;
+}
+.form-heading{
+    margin-bottom: 5%;
+    color: grey;
+}
+.form-group{
+    width: 80%;
+    margin-bottom: 2%;
+}
+.btn{
+    margin-top: 2%;
+    background-color: #0484f8;
+    color: white;
+}
+
+.user-background{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.rating-query{
+    color: gray;
+    font-size: 400;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.star-rating {
+    display: inline-block;
+}
+
+.star-rating input[type="radio"] {
+    display: none;
+}
+
+.star-rating label {
+    font-size: 25px;
+    cursor: pointer;
+    color: #ccc; /* Default star color */
+    padding: 0 5px; /* Add some spacing between stars */
+}
+
+.star-rating label:before {
+    content: '\2605'; /* Unicode character for star */
+}
+
+.star-rating input[type="radio"]:checked ~ label,
+.star-rating input[type="radio"]:checked ~ label ~ label {
+    color: #f39c12;
+}
+.logoimg{
+    height: 100%;
+}
+
+.rightsection{
+    height: 100%;
+
+}
+.form{
+    height: 80%;
+}
